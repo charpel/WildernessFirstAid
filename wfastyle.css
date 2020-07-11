@@ -1,0 +1,85 @@
+/* background color */
+body {
+  background-color: AliceBlue;
+}
+
+/* "Wilderness First Aid" header */
+h1 {
+  background-color: #264653;
+  font-size:60px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin: 0px 0px 0px 0px;
+  color: #e9c46a;
+  text-align: center;
+}
+
+/* Home button */
+.btn {
+  border: none;
+  padding: 12px;
+  font-size: 80px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  width:25px;
+
+}
+
+
+/* Table of contents */
+a:link {
+  width: 300px;
+  color: CadetBlue;
+  text-align: left;
+  padding: 15px 32px;
+  color: red;
+  text-decoration: none;
+  background-color: white;
+  display: inline-block;
+  font-size: 20px;
+  font-weight:bold;
+}
+a:visited {
+  color: CadetBlue;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  background-color: #e76f51;
+}
+
+/* blue background headers*/
+h2{
+  background-color: #264653;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #e9c46a;
+  height: 40px;
+  padding: 15px;
+}
+
+h3{
+  color:#e76f51;
+}
+
+/* table borders */
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-color: white;
+}
+
+/* table headers longer vertically */
+th {
+  height: 40px;
+}
+
+/* padding within tables */
+th, td {
+  padding: 4px;
+  text-align: left;
+}
